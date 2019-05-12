@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Nicknames</title>
+</head>
+<body id= "about">
+    <style>
+        #enter{
+            text-align: center;
+    padding: 12px;
+    position: sticky;
+    top: 0;
+    background: white;
+    z-index: 99;
+        }
+        #firstname{
+            text-align: center;
+    padding: 12px;
+    background:white;
+
+        }
+        #secondname{
+            text-align: center;
+    padding: 12px;
+    background:white;    
+        }
+        #heading{
+        text-shadow: 2px 2px 5px black;
+        }
+        #subheading{
+        text-shadow: 2px 2px 2px black;
+        }
+        #result{
+            text-align:center;
+            color: aqua;
+            font-size: 60px;
+            text-shadow: 2px 2px 4px black;
+
+            
+
+        }
+        body{
+            transition: all 500ms ease-in;
+        }
+
+
+
+        </style>
+    <h1 id= "heading"><CENTER><FONT face= "helvetica"color= "turquoise">Nicknames generator</FONT></CENTER></h1>
+    <p >
+        <CENTER id= "subheading">
+            <FONT face= "helvetica" size= "4" color= "turquoise">Combine two names to create a completely hilarious new one
+
+            </FONT></CENTER></p>
+    <div><CENTER>
+        <input type="text"id= "firstname" >
+        <input type="text" id= "secondname">
+        <button id= "enter">enter</button>
+        </CENTER>
+    </div>
+    <h3 id= "result"></h3>
+    <script src="playground.js"></script>
+
+    
+    
+    
+</body>
+</html>
